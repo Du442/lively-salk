@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfólio de Lucas Rezende - Desenvolvedor Fullstack com foco em interfaces modernas e soluções robustas.">
+    <title>Lucas Rezende | Portfólio</title>
+    <!-- FontAwesome para Ícones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Folha de Estilos -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- --- NAVBAR --- -->
+    <header class="navbar">
+        <div class="container nav-container">
+            <a href="#home" class="logo">
+                LUCAS<span>.R</span><span class="logo-dot"></span>
+            </a>
+            <nav>
+                <ul class="nav-menu" id="nav-menu">
+                    <li><a href="#home" class="nav-link active">Início</a></li>
+                    <li><a href="#about" class="nav-link">Sobre</a></li>
+                    <li><a href="#skills" class="nav-link">Habilidades</a></li>
+                    <li><a href="#projects" class="nav-link">Projetos</a></li>
+                    <li><a href="#experience" class="nav-link">Carreira</a></li>
+                    <li><a href="#contact" class="nav-link">Contato</a></li>
+                </ul>
+            </nav>
+            <button class="menu-toggle" id="menu-toggle" aria-label="Abrir menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- --- HERO SECTION --- -->
+    <section class="hero" id="home">
+        <div class="container hero-grid">
+            <div class="hero-content">
+                <span class="hero-tagline">Desenvolvedor Fullstack</span>
+                <h1 class="hero-title">Criando soluções digitais com propósito e precisão.</h1>
+                <p class="hero-subtitle">
+                    Olá, eu sou o Lucas. Especializado em transformar ideias complexas em interfaces limpas, interativas e aplicações de alta performance.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">Contate-me <i class="fas fa-arrow-right" style="margin-left: 8px;"></i></a>
+                    <a href="#projects" class="btn btn-secondary">Ver Projetos</a>
+                </div>
+            </div>
+            <div class="hero-img-container">
+                <div class="hero-img-wrapper">
+                    <img src="assets/profile.png" alt="Foto de Perfil de Lucas Rezende" class="hero-img">
+                    <div class="floating-badge">
+                        <span class="badge-dot"></span>
+                        <span class="badge-text">Disponível para Projetos</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- --- ABOUT SECTION --- -->
+    <section class="about" id="about">
+        <div class="container">
+            <h2 class="section-title">Sobre Mim</h2>
+            <p class="section-subtitle">Conheça um pouco mais sobre a minha trajetória e motivações na área de tecnologia.</p>
+            
+            <div class="about-grid">
+                <div class="about-details">
+                    <h3>Construindo o futuro através do código</h3>
+                    <p class="about-text">
+                        Tenho paixão pelo desenvolvimento de software e por projetar arquiteturas limpas. Minha jornada envolve tanto a criação de designs dinâmicos de interface de usuário quanto o desenvolvimento de infraestruturas robustas de back-end. Prezo muito pela atenção aos detalhes, performance e acessibilidade.
+                    </p>
+                    <div class="about-info-grid">
+                        <div class="info-item">
+                            <span class="info-label">Localização</span>
+                            <span class="info-val">São Paulo, SP - Brasil</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">E-mail</span>
+                            <span class="info-val">lucas.rezende@dev.com</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Formação</span>
+                            <span class="info-val">Engenharia de Software</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Idiomas</span>
+                            <span class="info-val">Português & Inglês</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-number">5+</div>
+                        <div class="stat-label">Anos de Exp.</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">40+</div>
+                        <div class="stat-label">Projetos Feitos</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">15+</div>
+                        <div class="stat-label">Clientes Felizes</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- --- SKILLS SECTION --- -->
+    <section class="skills" id="skills">
+        <div class="container">
+            <h2 class="section-title">Minhas Habilidades</h2>
+            <p class="section-subtitle">As ferramentas, linguagens e metodologias que domino no meu dia a dia.</p>
+            
+            <div class="skills-grid">
+                <!-- Frontend Skills -->
+                <div class="glass-card">
+                    <h3 class="skills-category-title"><i class="fas fa-laptop-code"></i> Frontend & UI/UX</h3>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">HTML5 / CSS3 / Vanilla JS</span>
+                                <span class="skill-percentage">95%</span>
+                            </div>
+                            <div class="skill-bar-bg">
+                                <div class="skill-bar-fill" data-percent="95%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">React.js / Next.js</span>
+                                <span class="skill-percentage">90%</span>
+                            </div>
+                            <div class="skill-bar-bg">
+                                <div class="skill-bar-fill" data-percent="90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Responsive Design & CSS Grid</span>
+                                <span class="skill-percentage">95%</span>
+                            </div>
+                            <div class="skill-bar-bg">
+                                <div class="skill-bar-fill" data-percent="95%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Backend & Ops Skills -->
+                <div class="glass-card">
+                    <h3 class="skills-category-title"><i class="fas fa-server"></i> Backend & Infra</h3>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Node.js (Express / NestJS)</span>
+                                <span class="skill-percentage">85%</span>
+                            </div>
+                            <div class="skill-bar-bg">
+                                <div class="skill-bar-fill" data-percent="85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">PostgreSQL / MongoDB</span>
+                                <span class="skill-percentage">80%</span>
+                            </div>
+                            <div class="skill-bar-bg">
+                                <div class="skill-bar-fill" data-percent="80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Git & Github Actions (CI/CD)</span>
+                                <span class="skill-percentage">88%</span>
+                            </div>
+                            <div class="skill-bar-bg">
+                                <div class="skill-bar-fill" data-percent="88%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- --- PROJECTS SECTION --- -->
+    <section class="projects" id="projects">
+        <div class="container">
+            <h2 class="section-title">Projetos Recentes</h2>
+            <p class="section-subtitle">Uma seleção dos meus trabalhos mais recentes desenvolvidos com tecnologia de ponta.</p>
+            
+            <div class="filter-menu">
+                <button class="filter-btn active" data-filter="all">Todos</button>
+                <button class="filter-btn" data-filter="web">Web App</button>
+                <button class="filter-btn" data-filter="security">Cibersegurança</button>
+                <button class="filter-btn" data-filter="minimal">Utilitários</button>
+            </div>
+            
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="glass-card project-card" data-category="web">
+                    <div class="project-img-wrapper">
+                        <img src="assets/project1.png" alt="Aplicação de Mapa Tático" class="project-img">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link" aria-label="Link do Projeto"><i class="fas fa-link"></i></a>
+                                <a href="#" class="project-link" aria-label="Código Fonte"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <span class="project-tag">Web App</span>
+                        <h3 class="project-title">Sistema de Geolocalização Tática</h3>
+                        <p class="project-desc">Um painel interativo em tempo real para navegação e gerenciamento tático de frotas e pontos geográficos críticos.</p>
+                        <div class="project-tech">
+                            <span>React</span>
+                            <span>Leaflet.js</span>
+                            <span>Tailwind</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="glass-card project-card" data-category="security">
+                    <div class="project-img-wrapper">
+                        <img src="assets/project2.png" alt="Dashboard de Segurança Cibernética" class="project-img">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link" aria-label="Link do Projeto"><i class="fas fa-link"></i></a>
+                                <a href="#" class="project-link" aria-label="Código Fonte"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <span class="project-tag">Cibersegurança</span>
+                        <h3 class="project-title">Console de Análise de Ameaças</h3>
+                        <p class="project-desc">Interface analítica moderna para visualização de tráfego de rede anômalo e emissão de alertas automáticos.</p>
+                        <div class="project-tech">
+                            <span>NextJS</span>
+                            <span>D3.js</span>
+                            <span>WebSockets</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="glass-card project-card" data-category="minimal">
+                    <div class="project-img-wrapper">
+                        <img src="assets/project3.png" alt="Bloco de Notas Minimalista" class="project-img">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link" aria-label="Link do Projeto"><i class="fas fa-link"></i></a>
+                                <a href="#" class="project-link" aria-label="Código Fonte"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <span class="project-tag">Utilitários</span>
+                        <h3 class="project-title">Bloco de Notas Markdown</h3>
+                        <p class="project-desc">Editor de texto minimalista offline-first baseado em navegador para anotações rápidas com formatação Markdown e salvamento local.</p>
+                        <div class="project-tech">
+                            <span>Vanilla JS</span>
+                            <span>CSS Grid</span>
+                            <span>LocalForage</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- --- EXPERIENCE TIMELINE --- -->
+    <section class="experience" id="experience">
+        <div class="container">
+            <h2 class="section-title">Experiência Profissional</h2>
+            <p class="section-subtitle">Minha trajetória no mercado corporativo e desenvolvimento de software.</p>
+            
+            <div class="timeline">
+                <!-- Item 1 -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <span class="timeline-date">2023 - Presente</span>
+                    <div class="timeline-card">
+                        <h3 class="timeline-title">Desenvolvedor Fullstack Sênior</h3>
+                        <div class="timeline-org">Codex Security Solutions</div>
+                        <p class="timeline-desc">
+                            Liderança técnica na criação de interfaces voltadas para segurança cibernética e monitoramento de logs. Otimização de queries de banco de dados e mentoria a desenvolvedores júniores.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Item 2 -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <span class="timeline-date">2021 - 2023</span>
+                    <div class="timeline-card">
+                        <h3 class="timeline-title">Desenvolvedor Frontend Pleno</h3>
+                        <div class="timeline-org">Aether Labs</div>
+                        <p class="timeline-desc">
+                            Desenvolvimento de aplicações web interativas (SaaS) com foco em gráficos dinâmicos e painéis de controle analíticos usando React e D3.js.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Item 3 -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <span class="timeline-date">2019 - 2021</span>
+                    <div class="timeline-card">
+                        <h3 class="timeline-title">Desenvolvedor Web Júnior</h3>
+                        <div class="timeline-org">Stellar Tech</div>
+                        <p class="timeline-desc">
+                            Criação de landing pages, e-commerces e portais corporativos responsivos com HTML5, CSS3, e Vanilla Javascript.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- --- CONTACT SECTION --- -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="section-title">Contato</h2>
+            <p class="section-subtitle">Tem um projeto em mente ou gostaria de conversar sobre oportunidades? Fique à vontade para me mandar uma mensagem.</p>
+            
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="contact-info-card">
+                        <div class="contact-icon-wrapper">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div>
+                            <span class="contact-info-title">E-mail</span>
+                            <div class="contact-info-value">lucas.rezende@dev.com</div>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-info-card">
+                        <div class="contact-icon-wrapper">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div>
+                            <span class="contact-info-title">Localização</span>
+                            <div class="contact-info-value">São Paulo, SP, Brasil</div>
+                        </div>
+                    </div>
+
+                    <div class="contact-info-card">
+                        <div class="contact-icon-wrapper">
+                            <i class="fas fa-globe"></i>
+                        </div>
+                        <div>
+                            <span class="contact-info-title">Redes Sociais</span>
+                            <div class="contact-info-value">github.com/lucasrezende</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Formulário -->
+                <div class="glass-card">
+                    <form class="contact-form" id="contact-form">
+                        <div class="form-group-row">
+                            <div class="form-group">
+                                <label for="name" class="form-label">Nome Completo</label>
+                                <input type="text" id="name" name="name" class="form-control" placeholder="Ex: João Silva" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email" class="form-label">Seu E-mail</label>
+                                <input type="email" id="email" name="email" class="form-control" placeholder="Ex: joao@email.com" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject" class="form-label">Assunto</label>
+                            <input type="text" id="subject" name="subject" class="form-control" placeholder="Ex: Proposta de Projeto" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message" class="form-label">Mensagem</label>
+                            <textarea id="message" name="message" class="form-control" placeholder="Escreva sua mensagem aqui..." required></textarea>
+                        </div>
+                        
+                        <div class="form-status" id="form-status"></div>
+
+                        <button type="submit" class="btn btn-primary" id="form-submit">
+                            Enviar Mensagem <i class="fas fa-paper-plane" style="margin-left: 8px;"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- --- FOOTER --- -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-copy">
+                &copy; 2026 Lucas Rezende. Todos os direitos reservados.
+            </div>
+            <div class="social-links">
+                <a href="#" class="social-link" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="#" class="social-link" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" class="social-link" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="social-link" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Script JavaScript -->
+    <script src="app.js"></script>
+</body>
+</html>
